@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Inge Chentia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Audio Player (Hidden, Autoplay) -->
+    <audio id="bg-music" autoplay loop>
+        <source src="assets/lagu.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung pemutar audio.
+    </audio>
+
+    <!-- Awan-awan -->
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+    <div class="cloud cloud4"></div>
+    <div class="cloud cloud5"></div>
+
+    <div class="container">
+        <!-- Halaman Awal -->
+        <div id="page-1" class="page active">
+            <div class="heart">💗</div>
+            <h1>For you icenn</h1>
+            <p class="subtitle">There is something I want to tell you</p>
+            <button class="btn-primary" onclick="showMessage()">
+                DI BACAA YAAAAA
+            </button>
+        </div>
+
+        <!-- Halaman Pesan -->
+        <div id="page-2" class="page">
+            <div class="message-container">
+                <div class="typing-text" id="message-text"></div>
+            </div>
+            <button class="btn-flower hidden" id="flower-btn" onclick="showFlower()">
+                Terimalah Bunga ini 🌷
+            </button>
+        </div>
+
+        <!-- Halaman Bunga Tulip 2D -->
+        <div id="page-3" class="page">
+            <div class="tulip-container">
+                <!-- Tulip 1 -->
+                <div class="tulip tulip-1">
+                    <div class="tulip-head">
+                        <div class="tulip-petal petal-front"></div>
+                        <div class="tulip-petal petal-back"></div>
+                        <div class="tulip-petal petal-left"></div>
+                        <div class="tulip-petal petal-right"></div>
+                        <div class="tulip-center"></div>
+                    </div>
+                    <div class="tulip-stem"></div>
+                    <div class="tulip-leaf leaf-left"></div>
+                    <div class="tulip-leaf leaf-right"></div>
+                </div>
+                
+                <!-- Tulip 2 -->
+                <div class="tulip tulip-2">
+                    <div class="tulip-head">
+                        <div class="tulip-petal petal-front"></div>
+                        <div class="tulip-petal petal-back"></div>
+                        <div class="tulip-petal petal-left"></div>
+                        <div class="tulip-petal petal-right"></div>
+                        <div class="tulip-center"></div>
+                    </div>
+                    <div class="tulip-stem"></div>
+                    <div class="tulip-leaf leaf-left"></div>
+                    <div class="tulip-leaf leaf-right"></div>
+                </div>
+                
+                <!-- Tulip 3 -->
+                <div class="tulip tulip-3">
+                    <div class="tulip-head">
+                        <div class="tulip-petal petal-front"></div>
+                        <div class="tulip-petal petal-back"></div>
+                        <div class="tulip-petal petal-left"></div>
+                        <div class="tulip-petal petal-right"></div>
+                        <div class="tulip-center"></div>
+                    </div>
+                    <div class="tulip-stem"></div>
+                    <div class="tulip-leaf leaf-left"></div>
+                    <div class="tulip-leaf leaf-right"></div>
+                </div>
+            </div>
+            
+            <div class="final-message hidden" id="final-msg">
+                <h2>Maafin Aku, Cennn</h2>
+                <p>I will change for you and for us🪷</p>
+                <p class="sub-text">Like tulips blooming in spring,<br>and I hope our love can be like tulip flowers blooming when spring arrives.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
